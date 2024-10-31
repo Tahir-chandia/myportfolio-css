@@ -32,7 +32,7 @@ const Header = () => {
                      <li className="nav-item"><Link href="/">Home</Link></li>
                      <li className="nav-item"><Link href="/about">About</Link></li>
                      <li className="nav-item"><Link href="/projects">Projects</Link></li>
-                     <li className="nav-item"><a href="" className='button'>Contact</a></li>
+                     <li className="nav-item"><Link href="/contact" className='button'>Contact</Link></li>
                  </ul>
 
                  <button onClick={toggleNavbar} className="menu-button">
@@ -58,29 +58,3 @@ const Header = () => {
 
 export default Header
 
-
-
-// const Header = () => {
-//     const [isClick, setIsClick] = useState(false);
-//     const toggleNavbar = () => {
-//         setIsClick(!isClick);
-//     };
-
-//     return (
-//         <header>
-//             <nav className="navbar">
-//                 <div className="img">
-//                     <Link href="/">
-//                         <Image src="/logo.svg" alt="logo" width={150} height={70} className="logo" />
-//                     </Link>
-//                 </div>
-
-//                 <div className="contact-button">
-//                     <button className="contact">Contact</button>
-//                 </div>
-//             </nav>
-//         </header>
-//     );
-// };
-
-// export default Header;
