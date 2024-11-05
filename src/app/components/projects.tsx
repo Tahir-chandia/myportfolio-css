@@ -16,7 +16,7 @@ const Projects = () => {
                             <div>
                             <h4 className='text2 '>
                                 Project-01        </h4>
-                            <Link href={"https://milestone1-2-seven.vercel.app/"}
+                            <Link href={"https://resume-builder-tau-five.vercel.app/"}
                              target='_blank' className='link'>
                             <span className='span2'>Static Resume Website
                             </span>
